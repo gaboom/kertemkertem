@@ -1,97 +1,93 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
-  image : "images/banner.png"
+  title : "Mondd meg nékem, hogy legyen legszebb a kertem e vidéken?"
+  content : "Egyszerűen: mi megcsináljuk. Kertrendezés, kertápolás és kerépítészet egy kézből az Ön igényeihez igazítva."
+  image : "images/banner.jpg"
   # button
   button:
     enable : true
-    label : "All Products"
-    link : "products/"
+    label : "Ajánlatkérés"
+    link : "contact/"
   # demo video
   video:
     enable : true
-    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+    label : Így dolgozunk
+    videoURL : "https://www.youtube.com/embed/wxflcCxqebU"
 
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  title : "Levesszük a terhet a válláról"
+  content : "Spóroljon időt, erőt és pénzt. Mi egy teljes csapatot és minden munkaeszközt biztosítunk. Gyümölcsös? Kis- vagy zártkert? Nagy udvar, legelő? Újítani szeretne vagy egy előkészített konyhakertet? Szomszédja is megirigyli a rendet. Kicsiben és nagyban egyaránt valóssággá váltjuk álmát. "
   image : "images/about.png"
 
 
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
-  image : "images/cta.png"
+  title : "Tudjon meg többet elvégzett munkáinkról"
+  content : "Elégedett ügyfeleink és a minőségi munka a büszkeségünk."
+  image : "images/work2.png"
   overlayImage : "images/cta-overlay.png"
   button:
-    label : "All Products"
-    link : "products/"
+    label : "Referenciák"
+    link : "ref/"
 
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  title : "Mindent mi intézünk"
+  subtitle : "Profi munkaeszközökkel és felkészült munkatársakkal érkezünk. Gondoskodunk a hulladék elszállításáról, csak kész és szép munkát hagyunk magunk után."
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
-      image : "images/material/material-1.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+    - title : "Jármű és utánfutó"
+      image : "images/material/trailer.png"
+      content : "Spróroljon időt és pénzt, ne vesződjön bérléssel se szállítással."
       
     # material item loop
-    - title : "Aloe Vera"
-      image : "images/material/material-2.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+    - title : "Erőgépek"
+      image : "images/material/chainsaw.png"
+      content : "Használatuk szakértelmet igényel és nem veszélytelen."
       
     # material item loop
-    - title : "Turmeric"
-      image : "images/material/material-3.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+    - title : "Ágdaráló, fűkasza"
+      image : "images/material/hecht5060.png"
+      content : "Pazarlás nagygépeket minden kertben fenntartani, javítani, karbantartani."
       
     # material item loop
-    - title : "Tulshi leaf"
-      image : "images/material/material-4.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+    - title : "Szerszámok"
+      image : "images/material/tools.png"
+      content : "Sok apró és speciális szerszám mind velünk lesz, nem kell aggódnia, hogy éles-e, most pont most fog-e elromlani?"
 
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
+  title : "Hogyan jár jól ha minket bíz meg?"
+  subtitle : "Vegye fel velünk a kapcsolatot bizalommal, hogy egyszerű ajánlatot kapjon."
+  image : "images/work.avif"
   advantageList:
     # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+    - listItem : "Több ideje marad fontosabb dolgokra"
+    - listItem : "Ne vesződjön végeláthatatlanul"
+    - listItem : "Irigyelni fogják szomszédai"
+    - listItem : "Rizikó nélkül, elégedettségi garanciával"
+    - listItem : "Egyszerű és tiszta árképzéssel"
+    - listItem : "Teljes gépparkunk rendelkezésére plusz költség nélkül"
 
 
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "How To Use This Product?"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  title : "Egzotikus elképzeléseit is könnyedén átültetjük a valóság mezejére"
+  content : "Zenkertet szeretne? Vízesést? Japán sziklakertet? Indonéz életstílust? Férfibarlangot? Női lugast? Világlátott csapatunknak nem akadály hanem örömteli kihívás. Ossza meg velünk álmait és mi megvalósítjuk."
   videoThumb : "images/video-thumb.jpg"
-  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+  videoURL : "https://www.youtube.com/embed/kff7GsbagQo"
 
 
 ######################## Products #############################
 products:
-  enable : true
+  enable : false
   title : "Products List"
   # product item comes from "content/products"
 
@@ -99,32 +95,25 @@ products:
 ########################## Testimonial ########################
 testimonial:
   enable : true
-  title : "What People Are Saying <br> About Our Product"
+  title : "Családi vállalkozásunk tagjai állnak a rendelkezésére"
   testimonialItem:
     # testimonial item loop
-    - name : "Angelo Perara"
-      image : "images/clients/client-1.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "five" # rating star, one to five
-      
-    # testimonial item loop
-    - name : "Riya Ventila"
-      image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "three" # rating star, one to five
-      
-    # testimonial item loop
-    - name : "john Doe"
+    - name : "F. Csaba"
       image : "images/clients/client-3.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      designation : "Senior Mesterkertész"
+      content : "Élvezem a kihívást"
+      rating : "five" # rating star, one to five
+
+    # testimonial item loop
+    - name : "F. Rebeka"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "Mesterkertész"
+      content : "Szabad ég alatt a legjobb"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
-    - name : "Riya Ventila"
+    - name : "K. Anna"
       image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "four" # rating star, one to five
+      designation : "Kertművelő esztéta"
+      content : "Nem elég a tökéletes"
+      rating : "five" # rating star, one to five

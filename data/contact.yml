@@ -3,8 +3,8 @@ contact:
   enable : true
   # office
   office:
-    title : "Central Office"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+    title : "Kapcsolat"
+    content : "Hívjon minket bizalommal a hét bármely napján. Ha épp nem tudjuk fogadni hívását, visszahívjuk. Üzenet (pl. SMS, email, WhatsApp) formájában is elérhet minket."
     # other information comes from "config.toml"
 
   # opennig hour
